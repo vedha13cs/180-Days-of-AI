@@ -6,7 +6,7 @@
 
 AI often works with possibilities — probability helps us measure them.
 
-</div>---
+</div>
 
 🌱 Today's Focus
 
