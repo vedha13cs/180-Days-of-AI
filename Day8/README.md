@@ -141,6 +141,6 @@ DAY 08 / 180
 
 Learn → Calculate → Experiment → Understand 🔁
 
-Next → Day 09 🚀
+Next → Day 09
 
 </div>#180DaysOfAI #Day08 #Probability #Python #ArtificialIntelligence #MachineLearning #DataScience #AIJourney
