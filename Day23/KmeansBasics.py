@@ -24,22 +24,19 @@ kmeans = KMeans(
 # Train the model
 kmeans.fit(X)
 
-# Get cluster labels
-labels = kmeans.labels_
-
-# Get cluster centers
-centers = kmeans.cluster_centers_
-
+# Cluster labels
 print("Cluster Labels:")
-print(labels)
+print(kmeans.labels_)
 
+# Cluster centers
 print("\nCluster Centers:")
-print(centers)
+print(kmeans.cluster_centers_)
 
+# Inertia
 print("\nInertia:")
 print(kmeans.inertia_)
 
-# Predict cluster for new data
+# Predict clusters for new data
 new_data = np.array([
     [2, 3],
     [9, 9],
@@ -48,5 +45,5 @@ new_data = np.array([
 
 predictions = kmeans.predict(new_data)
 
-print("\nNew Data Cluster Predictions:")
+print("\nPredicted Clusters:")
 print(predictions)
