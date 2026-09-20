@@ -4,7 +4,6 @@ text = """
 NLP is AMAZING!!!
 I am learning Natural Language Processing in 2026.
 """
-
 # 1. Lowercase
 text = text.lower()
 
