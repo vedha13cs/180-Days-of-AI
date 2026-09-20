@@ -1,7 +1,6 @@
 import re
 
 text = "HELLO!!! I am learning NLP, and it's AMAZING!!! 123"
-
 # Convert to lowercase
 text = text.lower()
 
